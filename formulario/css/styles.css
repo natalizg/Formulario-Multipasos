@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.bx {
+    margin-top: 7px;
+    font-size: 25px;
+    cursor: pointer;
+    transform: translateX(-35px);
+    color:#7d7d7d;
+}
+
+.paso {
+    display: none;
+}
+
+.paso:first-child {
+    display: block;
+}
+
+.texto-contrasena {
+    color: gray;
+    text-align:right;
+    margin-right: 38px;
+}
+
+.toggle-password {
+    cursor: pointer;
+    user-select: none;
+}
+
+p {
+    margin-left: 10px;
+    color:red;
+}
+
+.selector {
+    color: black;
+    margin-top: 10px;
+}
+
+.radios{
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+
